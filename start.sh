@@ -6,7 +6,7 @@ chmod -R 777 /raid/mopedauto/crontabs
 docker rm -f mopedauto 2>/dev/null
 docker run -d --name=mopedauto \
 --memory=256M \
--p 10.0.9.6:92:80 \
+-p <IPADRESSE>:<PORT>:80 \
 -v /raid/mopedauto/crontabs:/var/spool/cron/crontabs \
 -v /raid/mopedauto/werte:/werte \
 -v /raid/mopedauto/scripts:/scripts:ro \
