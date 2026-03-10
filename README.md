@@ -3,7 +3,7 @@
 Docker Container, welcher eine Tasmota Steckdose
 zeitgesteuert ansteuern kann.
 
-Z.B. um ein Elektroauto, bei welchen sich der maximale Ladezustand nicht begrenzen lässt.
+Z.B. um ein Elektroauto vernünftig zu laden, bei welchen sich der maximale Ladezustand nicht einstellen lässt.
 
 D.h. ein Webinterface, bei dem sich der Ist-Ladestand
 einstellen lässt, und der am Ende des Ladevorganges erreichte
