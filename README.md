@@ -19,4 +19,8 @@ chmod +x bauen.sh start.sh
 
 Die start.sh anpassen. Da drinnen muss man die gewünschte IP und den Port anpassen.
 
+unter /raid/mopedauto/scripts - sollte es eine "nachricht.sh" geben.
+Notfalls halt eine leere Datei anlegen mit :
+"touch /raid/mopedauto/scripts/nachricht.sh && chmod +x /raid/mopedauto/scripts/nachricht.sh".
+
 ./start.sh
